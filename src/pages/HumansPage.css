@@ -1,0 +1,26 @@
+/* src/pages/HumansPage.css */
+
+/* Contenedor principal */
+.container {
+    width: 100%;
+    min-height: 100vh;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #1a1a1a; /* Fondo oscuro suave */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Grid de tarjetas */
+  .grid-container {
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  

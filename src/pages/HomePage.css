@@ -1,0 +1,24 @@
+/* Estilo para el contenedor principal */
+.container {
+    width: 100%;
+    min-height: 100vh;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #1a1a1a; /* Fondo negro suave */
+    border-radius: 8px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Estilo para el grid de tarjetas */
+  .grid-container {
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
